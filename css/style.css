@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: arial, helvetica, sans-serif;
+}
+
+body{
+    background: url('https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000021688/f01ac33f78852331a7cc0c41561119b225bb8ac9e359179e912fb636bd07b05e') no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.fundo h1{
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 3px 3px #222983;
+}
+
+.calculadora{
+    background: #4c8fa059;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.calculadora h2{
+    color: #e9fffce3;
+    text-align: center;
+}
+
+#resultado{
+    background: #d6f0faef;
+    text-align: right;
+    padding: 0 5px;
+    font-size: 1.8rem;
+    border: 1rem auto .4rem;
+    width: 95%;
+    height: 2.5rem;
+    overflow-x: hidden;
+}
+
+button{
+    background: #63AFC8;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #194655;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(110%);
+}
+
+button:active{
+    transform: scale(95%);
+    box-shadow: 3px 3px #194655;
+}
+
+td[rowspan="2"] button{
+    background-color: #194655;
+    height: 107px;
+}
+
+td[colspan="2"] button {
+    width: 108PX;
+}
